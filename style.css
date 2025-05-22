@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.bg-brown {
+  background-color: #a04d2b;
+}
+
+.bg-yellow {
+  background-color: #fde575;
+}
+
+.bg-pink {
+  background-color: #fcb7b7;
+}
+
+.whatsapp-icon {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 100;
+}
+
+.carousel-indicators button {
+  background-color: #000!important;
+  width: 15px!important;
+  height: 15px!important;
+  border-radius: 50%!important;
+}
+
+.bg-mother{
+    background-image: url(./assets/mothersday.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.fadeScreen{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffffa1;
+}
