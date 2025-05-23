@@ -7,29 +7,34 @@
     <title>ChocoPremium</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
     <!-- Header -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-brown px-4">
+    <nav class="sticky-top position-fixed w-100 navbar navbar-expand-lg navbar-dark bg-brown-gradient px-4 pb-4">
         <div class="container">
 
             <a class="navbar-brand fw-bold text-light" href="#">ChocoPremium</a>
-            <div class="ms-auto gap-3 d-flex">
-                <i class="fas fa-shopping-cart text-light me-3"></i>
-                <a class="nav-link d-inline text-light" href="#">ABOUT US</a>
-                <a class="nav-link d-inline text-light" href="#">BLOG</a>
-                <a class="nav-link d-inline text-light" href="#">CONTACT</a>
+            <div class="ms-auto gap-3 d-flex align-items-center">
+                <i class="bi bi-cart text-white fs-5"></i>
+                <a class="nav-link d-inline text-light" href="#">About us</a>
+                <a class="nav-link d-inline text-light" href="#">Blog</a>
+                <a class="nav-link d-inline text-light" href="#">Contact</a>
             </div>
         </div>
     </nav>
 
     <!-- Carousel -->
-    <div class="bg-mother position-relative">
-        <div class="fadeScreen"></div>
-        <div class="container">
+    <div class="position-relative">
+
+        <div class="">
 
             <div id="carouselExampleIndicators" class="carousel slide">
                 <div class="carousel-indicators">
@@ -41,41 +46,55 @@
                         aria-label="Slide 3"></button>
                 </div>
                 <div class="carousel-inner ">
-                    <div class="carousel-item py-5 active">
-                        <h3><strong>Limited Edition:<br>Mother’s Day.</strong></h3>
-                        <p>Special box with a unique variety of chocolates.</p>
+                    <div class="bg-mother carousel-item py-5 active">
+                        <div class="container d-flex mt-5 justify-content-center" style="min-height: 400px;">
+                            <div class="fadeScreen"></div>
+
+                                <div class="align-items-center d-flex ">
+                                    <div class="position-relative z-1 text-white text-center w-100">
+                                        <h3 class="display-3 fw-medium"><strong>Limited Edition:<br>Mother’s Day.</strong></h3>
+                                        <p>Special box with a unique variety of chocolates.</p>
+                                        <button type="button" class="btn btn-outline-light">View offers</button>
+                                    </div>
+                                </div>
+                       
+
+                        </div>
                     </div>
-                    <div class="carousel-item py-5">
-                        <h3><strong>New Product!</strong></h3>
-                        <p>Enjoy our white chocolate and pistaccio bar.</p>
+                    <div class="bg-mother carousel-item py-5 ">
+                        <div class="container d-flex mt-5 justify-content-center" style="min-height: 400px;">
+                            <div class="fadeScreen"></div>
+
+                                <div class="align-items-center d-flex ">
+                                    <div class="position-relative z-1 text-white text-center w-100">
+                                       <h3 class="display-3 fw-medium"><strong>New Product!</strong></h3>
+                                        <p>Enjoy our white chocolate and pistaccio bar.</p>
+                                        <button type="button" class="btn btn-outline-light">View offers</button>
+                                    </div>
+                                </div>
+                       
+
+                        </div>
                     </div>
-                    <div class="carousel-item py-5">
-                        <h3><strong>Do you want to become an official distributor?</strong></h3>
-                        <p>Contact us and meet the requirements.</p>
+                    <div class="bg-mother carousel-item py-5 ">
+                        <div class="container d-flex mt-5 justify-content-center" style="min-height: 400px;">
+                            <div class="fadeScreen"></div>
+
+                                <div class="align-items-center d-flex ">
+                                    <div class="position-relative z-1 text-white text-center w-100">
+                                       <h3 class="display-3 fw-medium"><strong>Do you want to become an official distributor?</strong></h3>
+                                        <p>Contact us and meet the requirements.</p>
+                                        <button type="button" class="btn btn-outline-light">Contact us!</button>
+                                    </div>
+                                </div>
+                       
+
+                        </div>
                     </div>
                 </div>
 
             </div>
 
-            <!-- <div id="chocoCarousel" class="carousel slide" data-bs-ride="carousel">
-                 <div class="carousel-inner py-5 text-dark">
-                     <div class="carousel-item active">
-                         <h3><strong>Limited Edition:<br>Mother’s Day.</strong></h3>
-                         <p>Special box with a unique variety of chocolates.</p>
-                     </div>
-                 </div>
-                 <div class="carousel-inner py-5 text-dark">
-                     <div class="carousel-item active">
-                         <h3><strong>Second:<br>Mother’s Day.</strong></h3>
-                         <p>Special box with a unique variety of chocolates.</p>
-                     </div>
-                 </div>
-                 <div class="carousel-indicators position-relative gap-2 py-3">
-                     <button type="button" class="active"></button>
-                     <button type="button"></button>
-                     <button type="button"></button>
-                 </div>
-             </div> -->
         </div>
     </div>
 
@@ -89,31 +108,39 @@
         <h2>About us</h2>
     </section>
     <section class="container my-5 ">
-        <p class="text-center px-5">
-            Welcome to our artisanal and organic chocolate brand, born in the heart of Colombia—a land blessed with perfect conditions for growing the finest cacao. We are more than just chocolate; we are a movement dedicated to quality, sustainability, and social impact. From bean to bar, we work hand-in-hand with
-            Colombia’s small cacao producers, ensuring fair practices and exceptional craftsmanship in every bite. Our chocolate tells a story of tradition, passion, and a commitment to excellence.
+        <p class="text-">
+            Welcome to our artisanal and organic chocolate brand, born in the heart of Colombia—a land blessed with
+            perfect conditions for growing the finest cacao. We are more than just chocolate; we are a movement
+            dedicated to quality, sustainability, and social impact. From bean to bar, we work hand-in-hand with
+            Colombia’s small cacao producers, ensuring fair practices and exceptional craftsmanship in every bite. Our
+            chocolate tells a story of tradition, passion, and a commitment to excellence.
         </p>
         <div class="row text-start mt-5">
             <div class="col-md-6">
-                <div class="px-5 h-100 d-flex flex-column justify-content-center">
+                <div class="h-100 d-flex flex-column justify-content-center">
 
                     <h5><strong>Mission</strong></h5>
-                    <p>To produce high-quality, artisanal, and organic chocolate while empowering Colombia’s small cacao farmers. We are committed to ethical sourcing, sustainable practices, and preserving traditional methods—transforming the finest cacao into exquisite chocolate that delights consumers and uplifts communities.</p>
+                    <p>To produce high-quality, artisanal, and organic chocolate while empowering Colombia’s small cacao
+                        farmers. We are committed to ethical sourcing, sustainable practices, and preserving traditional
+                        methods—transforming the finest cacao into exquisite chocolate that delights consumers and
+                        uplifts communities.</p>
                 </div>
             </div>
             <div class="col-md-6">
-                <img src="assets/cacao.jpg" class="img-fluid rounded" alt="Cacao" />
+                <img src="assets/cacao.jpg" class="img-fluid rounded object-fit-cover border rounded h-100" alt="Cacao">
             </div>
         </div>
         <div class="row text-start mt-5">
             <div class="col-md-6">
-                <img src="assets/chocolate.jpg" class="img-fluid rounded" alt="Chocolate" />
+                <img src="assets/chocolate.jpg" class="img-fluid rounded object-fit-cover border rounded h-100" alt="Chocolate" />
             </div>
             <div class="col-md-6">
-                <div class="px-5 h-100 d-flex flex-column justify-content-center">
+                <div class="h-100 d-flex flex-column justify-content-center">
 
                     <h5><strong>Vision</strong></h5>
-                    <p>To become a globally recognized brand of artisanal chocolate, celebrated for its premium quality and positive impact. We aim to strengthen Colombia’s cacao industry, promote fair trade, and inspire a deeper appreciation for the craft of chocolate-making—one bar at a time.</p>
+                    <p>To become a globally recognized brand of artisanal chocolate, celebrated for its premium quality
+                        and positive impact. We aim to strengthen Colombia’s cacao industry, promote fair trade, and
+                        inspire a deeper appreciation for the craft of chocolate-making—one bar at a time.</p>
                 </div>
             </div>
         </div>
@@ -128,8 +155,9 @@
             <div class="row">
                 <div class="col-md-5">
                     <div class="px-5 h-100 d-flex flex-column justify-content-center">
-
-                        <p>You can share any suggestions, complaints, or compliments with us. Your opinion matters;  interaction is essential to providing the best service to our customers.</p>
+                        <p class="display-4 fw-semibold">Your opinion matters</p>
+                        <p>You can share any suggestions, complaints, or compliments with us. Your opinion matters;
+                            interaction is essential to providing the best service to our customers.</p>
                         <p><strong>Your opinion matters</strong>; interaction is essential...</p>
                     </div>
                 </div>
@@ -137,28 +165,38 @@
                     <form>
                         <div class="mb-2">
                             <label class="form-label">Name</label>
-                            <input type="text" class="form-control" />
+                            <input type="text" class="form-control" placeholder="Name..."/>
                         </div>
                         <div class="mb-2">
                             <label class="form-label">Email</label>
-                            <input type="email" class="form-control" />
+                            <input type="email" class="form-control" placeholder="Email..."/>
                         </div>
                         <div class="mb-2">
                             <label class="form-label">Topic</label><br />
                             <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="topic" />
-                                <label class="form-check-label">Suggestion</label>
+                                
+                                <label class="form-check-label">
+                                    <input class="form-check-input" type="radio" name="topic" />
+                                    Suggestion
+                                </label>
                             </div>
                             <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="topic" />
-                                <label class="form-check-label">Complaint</label>
+                                
+                                <label class="form-check-label">
+                                    <input class="form-check-input" type="radio" name="topic" />
+                                    Complaint
+                                </label>
                             </div>
                             <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="topic" />
-                                <label class="form-check-label">Compliment</label>
+                                
+                                <label class="form-check-label">
+                                    <input class="form-check-input" type="radio" name="topic" />
+                                    Compliment
+                                </label>
                             </div>
                         </div>
-                        <textarea class="form-control mt-2" rows="4"></textarea>
+                        <textarea class="form-control mt-2" rows="4" placeholder="Message..."></textarea>
+                        <button type="button" class="btn btn-outline-dark mt-4">Enviar</button>
                     </form>
                 </div>
             </div>
@@ -168,10 +206,10 @@
     <!-- Social Media -->
     <section class="text-center p-4">
         <h5>Follow us in our social media to get the latest artisan chocolate related news</h5>
-        <div class="fs-3 mt-3">
-            <i class="fab fa-instagram me-3"></i>
-            <i class="fab fa-facebook me-3"></i>
-            <i class="fab fa-youtube"></i>
+        <div class="fs-3 mt-3 d-flex justify-content-center gap-4">
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-youtube"></i>
         </div>
     </section>
 
