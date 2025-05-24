@@ -41,6 +41,16 @@ body {
   background-position: center center;
   background-size: cover;
 }
+.bg-slider-2 {
+  background-image: url(./assets/slider2.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+.bg-slider-3 {
+  background-image: url(./assets/slider3.jpg);
+  background-position: center center;
+  background-size: cover;
+}
 
 .fadeScreen {
   position: absolute;
