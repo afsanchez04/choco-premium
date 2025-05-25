@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ChocoPremium</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="./assets/favicon.png">
+    <link rel="stylesheet" href="../style.css" />
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <style>
+        .top-bar {
+            background-color: #A6482D;
+            color: white;
+        }
+
+        .highlight {
+            background-color: #FFD86D;
+            padding: 30px 0;
+            text-align: center;
+            margin-top: 55px;
+        }
+
+        .star-rating {
+            color: red;
+            font-size: 1.5rem;
+        }
+
+        .btn-custom {
+            background-color: #D9D9D9;
+            border: none;
+            font-weight: bold;
+            width: 100%;
+        }
+
+        .footer {
+            background-color: #A6482D;
+            color: white;
+        }
+
+        .footer a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .review-box {
+            border: 1px solid #000;
+            padding: 1rem;
+        }
+
+        .form-check-input:checked {
+            background-color: #A6482D;
+            border-color: #A6482D;
+        }
+
+        .leave-comment {
+            border: 1px solid black;
+            padding: 0.5rem 1rem;
+            color: red;
+            text-align: center;
+        }
+
+        @media screen and (max-width: 768px) {
+            .highlight {
+                margin-top: 88px !important;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <nav class="sticky-top position-fixed w-100 navbar navbar-expand-lg navbar-dark bg-brown px-4">
+        <div class="container d-flex flex-column flex-md-row">
+
+            <a class="navbar-brand fw-bold text-light" href="../">ChocoPremium</a>
+            <div class="ms-0 ms-md-auto gap-3 d-flex align-items-center">
+                <a class="nav-link d-inline text-light" href="../store.html">
+                    <i class="bi bi-cart text-white fs-5"></i>
+                </a>
+                <a class="nav-link d-inline text-light" href="../index.html#about-us">About us</a>
+                <a class="nav-link d-inline text-light" href="../blog.html">Blog</a>
+                <a class="nav-link d-inline text-light" href="../index.html#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Title -->
+    <section class="highlight py-4 text-center">
+        <h2 class="fw-bold">Product</h2>
+    </section>
+
+    <!-- Product Info -->
+    <main class="container my-5">
+        <div class="row g-5">
+            <div class="col-md-6">
+                <img id="product-img" src="../assets/store1.jpg" alt="Product Image" class="img-fluid">
+            </div>
+            <div class="col-md-6">
+                <h4 id="product-name">Classic table Chocolate Box</h4>
+                <p id="product-desc">Description</p>
+                <h5 id="product-price" class="text-end"></h5>
+                <button class="btn btn-custom mb-2">Add to cart</button>
+                <button class="btn btn-custom mb-4">Buy Now!</button>
+                <div>
+                    <p class="fw-bold mb-1">Review</p>
+                    <div class="star-rating mb-2">★ ★ ★ ★ ★</div>
+                    <!-- Dummy Rating Selection -->
+                    <div class="form-check">
+                        <label for="Good quality">
+                            <input id="Good quality" name="Good quality" class="form-check-input" type="checkbox" value="Good quality">
+                            Good quality
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <label for="Package">
+                            <input id="Package" name="Package" class="form-check-input" type="checkbox" value="Package">
+                            Package
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <label for="Price">
+                            <input id="Price" name="Price" class="form-check-input" type="checkbox" value="Price">
+                            Price
+                        </label>
+                    </div>
+                </div>
+                <button class="leave-comment mt-3 w-100 bg-white">Leave us a comment!</button>
+            </div>
+        </div>
+
+        <hr class="my-5">
+
+        <!-- Review Card -->
+        <div class="review-box">
+            <p class="fw-bold">Review <span class="star-rating">★ ★ ★ ★ ★</span></p>
+            <p><strong>Name:</strong> John Doe</p>
+            <p><strong>Date:</strong> 24/05/2025</p>
+            <p><strong>Comment:</strong> I like and enjoy all your products, congratulations!</p>
+        </div>
+    </main>
+
+
+
+    <!-- WhatsApp Icon -->
+    <a href="#" class="whatsapp-icon">
+        <img src="https://img.icons8.com/color/48/000000/whatsapp.png" alt="WhatsApp" />
+    </a>
+
+
+
+
+
+    <!-- Footer -->
+    <footer class="bg-brown text-light p-4">
+        <div class="container">
+            <div class="row gap-3 gap-md-0">
+                <div class="col-md-3 text-center">
+                    <strong>Menu</strong>
+                    <br />Store<br />About us<br />Blog
+                </div>
+                <div class="col-md-3 text-center"><strong>Terms</strong><br />Privacy Policies<br />Terms and conditions
+                </div>
+                <div class="col-md-3 text-center"><strong>Contact us</strong><br />Whatsapp<br />HQ Address</div>
+                <div class="col-md-3 text-center"><strong>Follow
+                        us</strong><br />Instagram<br />Facebook<br />YouTube<br />WhatsApp
+                </div>
+            </div>
+            <p class="text-center mt-4 small">Multimedia Project Management - UNAD. All rights reserved. 2025</p>
+        </div>
+    </footer>
+
+    <script>
+        // Obtener parámetros de la URL
+        const params = new URLSearchParams(window.location.search);
+        const name = params.get('name');
+        const price = params.get('price');
+        const desc = params.get('desc');
+        const image = params.get('img');
+
+        // Mostrar los valores en los elementos correspondientes
+        document.getElementById('product-name').textContent = name || 'Product Name';
+        document.getElementById('product-price').textContent = `$${price || '0.00'}`;
+        document.getElementById('product-desc').textContent = desc || 'No description available.';
+        document.getElementById('product-img').src = image;
+    </script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
